@@ -38,5 +38,6 @@ class Sort {
 	}
 }
 
+// Let's sort an array
 $sort = new Sort([3, 2, -4, 8, 10, 5, 78]);
 $sort->display();
