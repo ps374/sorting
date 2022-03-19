@@ -27,13 +27,13 @@ class Sort {
             // Sort an actual array
 			$this->sortArray();
 
-			$str = '';
+			$tmp = [];
 			foreach ($this->data as $item) {
-				$str.= $item . ', ';
+				$tmp[] = $item;
 			}
 
-			// Display concatenated string by removing trailing comma & space
-			return print substr($str, 0, -2);
+			// Display sorted array
+			return print implode(', ', $tmp);
 		}
 	}
 }
