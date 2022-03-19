@@ -24,7 +24,7 @@ class Sort {
     {
 		if ( is_array($this->data) ) {
 
-            // Sort actual array
+            // Sort an actual array
 			$this->sortArray();
 
 			$str = '';
